@@ -4,7 +4,8 @@
   "description": "OAuth2 Sample Project",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "./node_modules/.bin/netlify-lambda serve src",
+    "build": "./node_modules/.bin/netlify-lambda build src"
   },
   "repository": {
     "type": "git",
@@ -16,6 +17,8 @@
   "author": "Anuj Kumar Nath",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+    "netlify-lambda": "^2.0.16",
+    "serverless-http": "^3.1.1"
   }
 }
