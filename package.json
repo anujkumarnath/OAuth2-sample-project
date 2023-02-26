@@ -1,0 +1,18 @@
+{
+  "name": "oauth2-sample-project",
+  "version": "1.0.0",
+  "description": "OAuth2 Sample Project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:anujkumarnath/OAuth2-sample-project.git"
+  },
+  "keywords": [
+    "OAuth2"
+  ],
+  "author": "Anuj Kumar Nath",
+  "license": "ISC"
+}
