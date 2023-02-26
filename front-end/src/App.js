@@ -2,7 +2,9 @@ import './App.css';
 
 function App() {
 	return (
-		<>App is up and running...</>
+		<div id="main">
+			<button id='btn-login-with-google'>Login with google</button>
+		</div>
 	);
 }
 
